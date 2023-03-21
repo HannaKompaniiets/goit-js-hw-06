@@ -17,6 +17,7 @@ const sizeStep = 10;
 
 function destroyBoxes(){
   boxesEl.innerHTML = "";
+  inputEl.value = "";
 }
 
 function onClick(){
